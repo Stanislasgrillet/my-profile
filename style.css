@@ -1,0 +1,96 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card styling */
+.card-white {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Image styling */
+.img-circle {
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
+
+/* Heading styling */
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #333;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* List styling */
+.list-inline {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+/* Button-like link styling */
+.card-white a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.card-white a:hover {
+    background-color: #0056b3;
+}
